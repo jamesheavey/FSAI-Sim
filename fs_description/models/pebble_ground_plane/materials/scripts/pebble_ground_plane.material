@@ -1,0 +1,19 @@
+material Gazebo/Pebble
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.5 0.5 0.5 1.0
+      diffuse 0.5 0.5 0.5 0.5
+      specular 0.0 0.0 0.0 1.0 0.5
+
+      texture_unit
+      {
+        texture pebble_texture.png
+        filtering trilinear
+        scale 0.02 0.02
+      }
+    }
+  }
+}

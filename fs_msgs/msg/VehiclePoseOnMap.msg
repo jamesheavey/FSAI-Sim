@@ -1,0 +1,7 @@
+geometry_msgs/Vector3 position_on_racingline
+geometry_msgs/Vector3 position_on_centerline
+float32 racingline_angle
+float32 centerline_ratio
+float32 distance
+float32 track_width
+float32 car_angle_to_racingline_angle

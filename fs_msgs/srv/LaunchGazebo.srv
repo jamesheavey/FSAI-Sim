@@ -1,0 +1,8 @@
+Map map
+bool gui
+int32 timeout
+string ground_plane
+string lighting
+---
+bool success
+Map map

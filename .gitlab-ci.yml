@@ -1,0 +1,13 @@
+stages:
+  - Static Analysis
+
+flake8:
+  stage: Static Analysis
+  image: "python:3.8"
+  script:
+    - pip3 install flake8
+    - python -m flake8
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+      when: on_success
+    - when: on_success

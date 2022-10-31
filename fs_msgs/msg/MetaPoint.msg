@@ -1,0 +1,2 @@
+MetaKeyValuePair[] properties
+geometry_msgs/Vector3 position

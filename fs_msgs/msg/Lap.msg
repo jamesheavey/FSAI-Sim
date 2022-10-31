@@ -1,0 +1,2 @@
+int32 lap_count
+float32 lap_time

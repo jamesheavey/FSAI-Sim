@@ -1,0 +1,5 @@
+string map
+float32 track_width
+---
+Map map
+bool success

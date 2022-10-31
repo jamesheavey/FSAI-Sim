@@ -1,0 +1,7 @@
+Map map
+float32 cone_misplaced
+float32 cone_missing
+int32 seed
+---
+Map map
+bool success

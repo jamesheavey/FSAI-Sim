@@ -1,0 +1,9 @@
+string map
+float32 track_width
+float32 radius
+float32 length
+float32 height
+float32 cone_separation_distance
+---
+Map map
+bool success

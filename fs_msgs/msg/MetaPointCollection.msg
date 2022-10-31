@@ -1,0 +1,2 @@
+MetaKeyValuePair[] properties
+MetaPoint[] points
